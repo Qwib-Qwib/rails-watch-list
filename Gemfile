@@ -43,7 +43,19 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "bootsnap", require: false
 
 # Use Sass to process CSS
-# gem "sassc-rails"
+gem "sassc-rails"
+
+# Bootstrap library for fast components and CSS styling
+gem "bootstrap", "~> 5.2"
+
+# Automatically add agent prefixes to CSS for browser compatibility
+gem "autoprefixer-rails"
+
+# Library of useful icons
+gem "font-awesome-sass", "~> 6.1"
+
+# Build form in a simpler way
+gem "simple_form"
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
