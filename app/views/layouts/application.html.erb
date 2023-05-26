@@ -11,6 +11,14 @@
   </head>
 
   <body>
+    <nav class="navbar bg-body-tertiary d-flex">
+      <div>
+        <%= link_to 'Movies Manager', lists_path, { class: "navbar-brand" } %>
+      </div>
+      <div>
+        <%= link_to 'Create a new list', new_list_path, { class: "navbar-brand" } %>
+      </div>
+    </nav>
     <%= yield %>
   </body>
 </html>
